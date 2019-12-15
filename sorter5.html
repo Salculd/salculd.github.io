@@ -8,7 +8,7 @@
 <script type="text/javascript">
 <!--
 var namMember = new Array(
-	"1x01-02 Friendship is Magic",
+	"1x01-02 Friendship is Magic (Parts 1+2)",
 	"1x03 The Ticket Master",
 	"1x04 Applebuck Season",
 	"1x05 Griffon the Brush-Off",
@@ -33,7 +33,7 @@ var namMember = new Array(
 	"1x24 Owl's Well That Ends Well",
 	"1x25 Party of One",
 	"1x26 The Best Night Ever",
-	"2x01-02 The Return of Harmony",
+	"2x01-02 The Return of Harmony (Parts 1+2)",
 	"2x03 Lesson Zero",
 	"2x04 Luna Eclipsed",
 	"2x05 Sisterhooves Social",
@@ -56,8 +56,8 @@ var namMember = new Array(
 	"2x22 Hurricane Fluttershy",
 	"2x23 Ponyville Confidential",
 	"2x24 MMMystery on the Friendship Express",
-	"2x25-26 A Canderlot Wedding",
-	"3x01-02 The Crystal Empire",
+	"2x25-26 A Canderlot Wedding (Parts 1+2)",
+	"3x01-02 The Crystal Empire (Parts 1+2)",
 	"3x03 Too Many Pinkie Pies",
 	"3x04 One Bad Apple",
 	"3x05 Magic Duel",
@@ -201,7 +201,19 @@ var namMember = new Array(
 	"9x10 Going to Seed",
 	"9x11 Student Counsel",
 	"9x12 The Last Crusade",
-	"9x13 Between Dawn and Dusk"
+	"9x13 Between Dawn and Dusk",
+	"9x14 That's a Laugh",
+	"9x15 2, 4, 6, Greaaat",
+	"9x16 A Trivial Pursuit",
+	"9x17 The Summer Sun Setback",
+	"9x18 She Talks to Angel",
+	"9x19 Dragon Dropped",
+	"9x20 A Horse Shoe-In",
+	"9x21 Daring Doubt",
+	"9x22 Growing Up is Hard to Do",
+	"9x23 The Big Mac Question",
+	"9x24-25 The Ending of the End",
+	"9x26 The Last Problem"
 	);
 
 	
@@ -417,12 +429,12 @@ function showResult() {
 	
 	
 
-	for (p=0; p<120; p++){
+	for (p=0; p<90; p++){
 		origMember[p]=lstMember[0][p];
 	}
 	origMember.sort(function(a, b){return a-b});
 	
-	str += "<br><br><center>Top 120 in episode order (to facilitate copying over):</center><br><table style=\"width:200px; font-size:12px; line-height:120%; margin-left:auto; margin-right:auto; border:1px solid #000; border-collapse:collapse\" align=\"center\">";
+	str += "<br><br><center>Top 90 in episode order (to facilitate copying over):</center><br><table style=\"width:200px; font-size:12px; line-height:120%; margin-left:auto; margin-right:auto; border:1px solid #000; border-collapse:collapse\" align=\"center\">";
 	str += "<tr><td style=\"color:#ffffff; background-color:#000; text-align:center;\">#<\/td><td style=\"color:#ffffff; background-color:#000; text-align:center;\">Episode<\/td><\/tr>";
 
 	for (f=0; f<90; f++) {
@@ -529,8 +541,7 @@ body {
 	<a href="http://tylian.net/sort/pony.html" target="_blank">I did no work on either the concept or the code; I just stole it blatantly from here.</a><br>
 	<a href="https://dl.dropboxusercontent.com/u/4781807/episode-sort.html" target="_blank">And then I stole it from here and updated it!</a> Hooray, the cycle of theft continues unabated! - S<br>
 	Updated again two years later. This will also show your top 90 in episode order after the main table to facilitate copying. - S<br>
-	Another year, another update. If you're actually still using this with this many episodes, I apologize in advance. - S<br>
-	I increased the post-rank display to 120 this year. That should be a signal that you shouldn't be using this. - S
+	Another year, another update. If you're actually still using this with this many episodes, I apologize in advance.
 </p>
 
 <table id="mainTable" align="center">
